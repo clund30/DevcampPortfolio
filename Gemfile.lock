@@ -1,3 +1,9 @@
+GIT
+  remote: https://github.com/clund30/LundViewTool
+  revision: 041a1840c7cdd3e54cbec8e0db2d1df3624d5612
+  specs:
+    LundViewTool (0.1.0)
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -183,6 +189,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  LundViewTool!
   bootstrap (~> 4.0.0.beta2.1)
   byebug
   coffee-rails (~> 4.2)

@@ -15,4 +15,8 @@ module ApplicationHelper
       content_tag(:p, greeting, class: "source-greeting")
     end
   end
+
+  def copyright_generator
+    LundViewTool::Renderer.copyright 'Casey Lund', 'All rights reserved'
+  end  
 end
