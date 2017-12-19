@@ -53,3 +53,10 @@ puts "9 portfolio items created"
 end
 
 puts "3 technologies created"
+
+User.create(email: "test@test.com",
+            password: "test123",
+            password_confirmation: "test123",
+            name: "Fake User",
+            roles: "site_admin"
+            )
