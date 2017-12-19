@@ -1,3 +1,10 @@
+User.create(email: "test@test.com",
+            password: "test123",
+            password_confirmation: "test123",
+            name: "Fake User",
+            roles: "site_admin"
+            )
+
 3.times do |topic|
   Topic.create!(
     title: "Topic #{topic}"
@@ -54,9 +61,3 @@ end
 
 puts "3 technologies created"
 
-User.create(email: "test@test.com",
-            password: "test123",
-            password_confirmation: "test123",
-            name: "Fake User",
-            roles: "site_admin"
-            )
